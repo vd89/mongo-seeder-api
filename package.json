@@ -1,0 +1,20 @@
+{
+  "name": "mongo-seeder-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vd89/mongo-seeder-api.git",
+  "author": "vd89 <dixitvora@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env node --watch index.js",
+    "db:init": "docker compose -f init-setup/docker-compose.yaml up -d"
+  },
+  "dependencies": {
+    "casual": "^1.6.2",
+    "config": "^3.3.9",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0"
+  }
+}

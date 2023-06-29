@@ -1,0 +1,6 @@
+{
+  "PROJECT_NAME": "mongo-seeder-api",
+  "ENVIRONMENT": "development",
+  "PORT": 8081,
+  "MONGO_URL": "mongodb://${user}:${password}@localhost:27017/testDbSeed?authSource=admin"
+}
